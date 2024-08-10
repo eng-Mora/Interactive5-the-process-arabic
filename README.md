@@ -4,26 +4,40 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Interactive Process</title>
     <style>
+        body {
+            background-color: #34495e;
+            color: white; /* Optional: Change text color to ensure readability */
+            font-family: Arial, sans-serif;
+        }
+
         .contact-icons {
             display: flex;
             gap: 10px;
         }
+
         .contact-icons a {
             display: inline-block;
             width: 40px; /* Adjust as needed */
             height: 40px; /* Adjust as needed */
         }
+
         .contact-icons img {
             width: 100%;
             height: 100%;
             display: block;
+        }
+
+        .contact-message,
+        .footer-text {
+            color: white; /* Ensure text is visible on dark background */
         }
     </style>
 </head>
 <body>
     <h1>Interactive the process Eng. Tarek Mohamed</h1>
 
-<iframe src="https://drive.google.com/file/d/1eQyJXDiNcjKi46gRRVLft2OM-V4A-WUF/preview" width="440" height="280" allow="autoplay"></iframe>    <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
+    <iframe src="https://drive.google.com/file/d/1eQyJXDiNcjKi46gRRVLft2OM-V4A-WUF/preview" width="440" height="280" allow="autoplay"></iframe>
+    <p class="contact-message">لو واجهتك مشكلة ابعتلي</p>
     <div class="contact-icons">
         <a href="https://www.facebook.com/mamro8529?mibextid=ZbWKwL" title="Facebook">
             <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg" alt="Facebook Icon">
